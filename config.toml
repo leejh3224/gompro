@@ -1,0 +1,55 @@
+baseURL = "http://example.org/"
+languageCode = "ko"
+title = "GOMPRO"
+theme = "hermit"
+googleAnalytics = "UA-147543612-1"
+enableEmoji = true
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
+rssLimit = 10  # Maximum number of items in the RSS feed.
+DefaultContentLanguage = "ko"
+
+[params]
+  dateform        = "2006년 1월 2일"
+  dateformShort   = "1월 2일"
+  dateformNum     = "2006.01.02"
+  dateformNumTime = "2006.01.02 15:04"
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  relatedPosts = true
+  code_copy_button = true
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:junhyung3224@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/leejh3224"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url = "https://stackoverflow.com/users/7424027/%ec%9d%b4%ec%a4%80%ed%98%95"
+
+[menu]
+
+  [[menu.main]]
+    name = "About"
+    url = "about-gompro/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 20
+
+[languages]
+
+  [languages.ko]
+    languageName = "한국어"
+    weight = 1
+    contentDir = "content"
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content"
