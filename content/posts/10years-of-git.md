@@ -3,9 +3,9 @@ title: "[번역] 10 Years of Git: An Interview with Git Creator Linus Torvalds"
 date: 2019-09-13T22:32:00+09:00
 draft: false
 tags:
-	- 번역
-	- Git
-	- Linus Torvalds
+  - 번역
+  - Git
+  - Linus Torvalds
 isCJKLanguage: true
 ---
 
