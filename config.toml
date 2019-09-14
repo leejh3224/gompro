@@ -8,6 +8,8 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
 DefaultContentLanguage = "ko"
+enableRobotsTXT = true
+canonifyURLs = true
 
 [params]
   dateform        = "2006년 1월 2일"
