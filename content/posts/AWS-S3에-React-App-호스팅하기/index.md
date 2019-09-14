@@ -27,7 +27,7 @@ isCJKLanguage: true
 
 다음 단계는 AWS 서비스 준비입니다.
 
-우리는 AWS의 S3에 빌드 파일을 업로드한 다음, [CDN](https://ko.wikipedia.org/wiki/%EC%BD%98%ED%85%90%EC%B8%A0_%EC%A0%84%EC%86%A1_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC) 서비스인 `C`loudfront`를 연결할 것입니다.
+우리는 AWS의 S3에 빌드 파일을 업로드한 다음, [CDN](https://ko.wikipedia.org/wiki/%EC%BD%98%ED%85%90%EC%B8%A0_%EC%A0%84%EC%86%A1_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC) 서비스인 `Cloudfront`를 연결할 것입니다.
 
 전체적인 모습은 아래와 같습니다.
 
