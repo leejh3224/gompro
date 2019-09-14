@@ -13,6 +13,8 @@ tags:
 isCJKLanguage: true
 ---
 
+> 이 게시물은 [velog](https://velog.io/@leejh3224/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EA%B0%9C%EC%8B%9C-AWS-S3%EC%97%90-React-%EC%95%B1-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0-vpjmq1glm8)에 먼저 게시되었습니다.
+
 ## 시작하기
 
 `create-react-app` (이하 CRA)을 이용하면 손쉽게 `react`앱을 생성할 수 있습니다.
