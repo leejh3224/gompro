@@ -1,0 +1,35 @@
+# 404.html
+#
+[notFound]
+other = "페이지를 찾을 수 없습니다."
+
+[home]
+other = "홈"
+
+[archives]
+other = "포스트"
+
+# posts/single.html
+#
+[seeAlso]
+other = "같이 보기"
+
+[wordCount]
+other = "{{ .WordCount }} 단어"
+
+[tableOfContents]
+other = "목차"
+
+[newer]
+other = "최신"
+
+[older]
+other = "이전"
+
+# partials/header.html
+#
+[menu]
+other = "메뉴"
+
+[featuredImage]
+other = "썸네일"
