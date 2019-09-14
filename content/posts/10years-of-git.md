@@ -6,6 +6,7 @@ tags:
   - 번역
   - Git
   - Linus Torvalds
+toc: true
 isCJKLanguage: true
 ---
 

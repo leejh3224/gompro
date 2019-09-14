@@ -10,6 +10,7 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 DefaultContentLanguage = "ko"
 enableRobotsTXT = true
 canonifyURLs = true
+toc = true
 
 [params]
   dateform        = "2006년 1월 2일"
