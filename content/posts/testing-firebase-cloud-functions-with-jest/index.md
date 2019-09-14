@@ -144,11 +144,11 @@ Ok, let’s setup jest into your project. I prefer to use Typescript for my proj
 4. Add test command in your `package.json` file.
 
     ```json
-    "scripts": {
-        ...other commands
-        // I prefer to set verbose=false, because it shows console.logs in terminal window. You can remove this flag.
-        "test": "jest --watchAll --verbose=false"
-    },
+    {
+        "scripts": {
+            "test": "jest --watchAll --verbose=false"
+        }
+    }
     ```
 
 5. Install required dependencies.

@@ -11,6 +11,8 @@ DefaultContentLanguage = "ko"
 enableRobotsTXT = true
 canonifyURLs = true
 toc = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
 
 [params]
   dateform        = "2006년 1월 2일"
