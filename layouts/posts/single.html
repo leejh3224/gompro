@@ -29,6 +29,10 @@
 			{{- if .Site.Params.relatedPosts }}
 			{{- partial "related-posts.html" . -}}
 			{{- end }}
+			{{ if (findRE "<pre" .Content 1) }}
+				<script src="/js/code-copy-button.js"></script>
+				<link rel="stylesheet" type="text/css" href="/css/code-copy-button.css">
+			{{ end }}
 			<hr class="post-end">
 			<footer class="post-info">
 				{{- with $.Param "author" }}
@@ -48,7 +52,7 @@
 			</footer>
 		</article>
 		{{- if .Params.toc }}
-		<aside id="toc">
+		<aside id="toc" class="show-toc">
 			<div class="toc-title">{{ i18n "tableOfContents" }}</div>
 			{{ .TableOfContents }}
 		</aside>
